@@ -4,8 +4,8 @@ require 'vendor/autoload.php';
 
 use App\Router;
 // dépendances Symfony
-use Symfony\Component\HttpFoundation\Session\Session;echo "hello";
-/*
+use Symfony\Component\HttpFoundation\Session\Session;
+
 // constantes globales
 define("DEFAUT_TEMPLATE",  __DIR__ . '/src/views/layouts/default.php');
 
@@ -32,4 +32,4 @@ $router
     ->get('/candidate_list', 'Controllers/ListCandidateController')
     ->get('/voter_list', 'Controllers/ListVoterController')
     ->get('/result', 'Controllers/ListBlockController')
-    ->run();*/
+    ->run();
