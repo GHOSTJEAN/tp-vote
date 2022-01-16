@@ -28,7 +28,7 @@ class Router
         $index = array_key_last($tab);
         $basePath = "/".$tab[$index];
           
-        $this->router->setBasePath($basePath);
+    //    $this->router->setBasePath($basePath);
     }
 
     public function get(string $url, string $view, ?string $name = null): self
