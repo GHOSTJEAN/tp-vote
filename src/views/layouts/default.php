@@ -52,7 +52,7 @@
                             <a class="nav-link" href="/tp-vote/create_user">S'enregistrer</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/tp-vote/login">se connecter</a>
+                            <a class="nav-link" href="/login">se connecter</a>
                         </li>
                     <?php endif ?>
                 </div>
