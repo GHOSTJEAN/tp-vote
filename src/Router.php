@@ -28,7 +28,7 @@ class Router
         $index = array_key_last($tab);
         $basePath = "/".$tab[$index];
           
-        $this->router->setBasePath("/tp-vote");
+       // $this->router->setBasePath("/tp-vote");
     }
 
     public function get(string $url, string $view, ?string $name = null): self
