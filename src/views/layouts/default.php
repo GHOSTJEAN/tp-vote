@@ -22,34 +22,34 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="/tp-vote/result">Résultat</a>
+                        <a class="nav-link" href="/result">Résultat</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/tp-vote/voter_list">Électeurs</a>
+                        <a class="nav-link" href="/voter_list">Électeurs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/tp-vote/candidate_list">Candidats</a>
+                        <a class="nav-link" href="/candidate_list">Candidats</a>
                     </li>
                 </ul>
                 <div class="navbar-nav ml-auto">
 
                         <?php if ($session->has("voter_statut")) : ?>
                             <li class="nav-item">
-                                <a class="nav-link" href="/tp-vote/cast">voter</a>
+                                <a class="nav-link" href="/cast">voter</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/tp-vote/profil">profil</a>
+                                <a class="nav-link" href="/profil">profil</a>
                             </li>
                         <?php endif  ?>
     
                         <?php if ($session->has("admin_statut") || $session->has("voter_statut"))  : ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="/tp-vote/deconnection">se déconnecter</a>
+                            <a class="nav-link" href="/deconnection">se déconnecter</a>
                         </li>
                         <?php else: ?>
                     
                         <li class="nav-item">
-                            <a class="nav-link" href="/tp-vote/create_user">S'enregistrer</a>
+                            <a class="nav-link" href="/create_user">S'enregistrer</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/login">se connecter</a>
